@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@react-navigation/stack": "^6.3.20",
+    "expo": "~49.0.15",
+    "expo-secure-store": "~12.3.1",
+    "expo-status-bar": "~1.6.0",
+    "link": "^2.1.0",
+    "react": "18.2.0",
+    "react-native": "^0.72.6",
+    "react-native-vector-icons": "^10.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
